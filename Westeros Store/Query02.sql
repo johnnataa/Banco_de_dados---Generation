@@ -1,0 +1,11 @@
+CREATE TABLE tb_produtos(
+id INT AUTO_INCREMENT, 
+nome VARCHAR(255) NOT NULL,
+tipo VARCHAR(255) NOT NULL,
+quantidade INT NOT NULL,
+cor VARCHAR(255) NOT NULL,
+preco DECIMAL(6,2) NOT NULL,
+PRIMARY KEY(id)
+);
+
+SELECT * FROM tb_produtos;

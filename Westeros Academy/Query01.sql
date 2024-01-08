@@ -1,0 +1,1 @@
+CREATE DATABASE db_westeros_academy;

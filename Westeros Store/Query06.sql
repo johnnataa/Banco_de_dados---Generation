@@ -1,0 +1,1 @@
+UPDATE tb_produtos SET nome = "Pulseira" WHERE id = 2;

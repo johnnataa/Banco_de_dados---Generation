@@ -1,0 +1,11 @@
+CREATE TABLE tb_escola(
+id INT AUTO_INCREMENT, 
+nomeAluno VARCHAR(255) NOT NULL,
+matricula INT NOT NULL,
+compCurricular VARCHAR(255) NOT NULL,
+professor VARCHAR(255) NOT NULL,
+nota DECIMAL(6,2) NOT NULL,
+PRIMARY KEY(id)
+);
+
+SELECT * FROM tb_escola;
